@@ -2,16 +2,16 @@
 
 :root{
     --branco: white;
-    --cor-de-fundo: #00162E;
-    --fundo-senha: #00244D;
-    --fundo-texto: #001E40;
+    --cor-de-fundo: #000000;
+    --fundo-senha: #cfd9e4;
+    --fundo-texto: #454749;
     --borda: #0075FF;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
 }
 
 *{
-    font-weight: 400;
+    font-weight: 40;
 }
 
 body{
@@ -31,7 +31,7 @@ body{
 
 .conteudo-titulo{
     text-align: center;
-    margin-top: 80px;
+    margin-top: 400px;
 }
 
 .conteudo-senha{
@@ -135,7 +135,7 @@ label{
     width: 50%;
 }
 .forte{
-    background-color: #00FF85;
+    background-color: #3700ff;
     width: 100%;
 }
 
@@ -149,4 +149,14 @@ label{
     .parametro-coluna__senha{
         flex-direction: row;
     }
+}
+.meu-footer {
+    background-color: #b5bac0; 
+    color: #ffffff; 
+    padding: 30px 0; 
+    text-align: center; 
+}
+
+.meu-footer .container {
+    max-width: 1200px; /
 }
